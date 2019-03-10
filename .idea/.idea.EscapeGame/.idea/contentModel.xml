@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Khurram\.Rider2018.1\System\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_EscapeGame.-642662412.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\EscapeGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Cartoon Temple Building Kit" t="Include">
+          <e p="ReadMe.txt" t="Include" />
+        </e>
+        <e p="Invector-3rdPersonController" t="Include">
+          <e p="Basic Locomotion LITE" t="Include">
+            <e p="README_Basic.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Camera" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="v3rdPersonCameraEditor.cs" t="Include" />
+                </e>
+                <e p="vThirdPersonCamera.cs" t="Include" />
+              </e>
+              <e p="CharacterController" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="vCharacterEditor.cs" t="Include" />
+                  <e p="vThirdPersonInputEditor.cs" t="Include" />
+                </e>
+                <e p="vThirdPersonAnimator.cs" t="Include" />
+                <e p="vThirdPersonController.cs" t="Include" />
+                <e p="vThirdPersonInput.cs" t="Include" />
+                <e p="vThirdPersonMotor.cs" t="Include" />
+              </e>
+              <e p="CharacterCreator" t="Include">
+                <e p="Script" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="vCreateBasicCharacterEditor.cs" t="Include" />
+                    <e p="vHelperEditor.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Generic" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="vEditorHelper.cs" t="Include" />
+                </e>
+                <e p="vComment.cs" t="Include" />
+                <e p="vDestroyGameObject.cs" t="Include" />
+                <e p="vExtensions.cs" t="Include" />
+                <e p="vPickupItem.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Common" t="Include">
+            <e p="Constants.cs" t="Include" />
+            <e p="Globals.cs" t="Include" />
+            <e p="Utils.cs" t="Include" />
+          </e>
+          <e p="GamePlay" t="Include">
+            <e p="GamePlayController.cs" t="Include" />
+            <e p="OnExit.cs" t="Include" />
+            <e p="OnHit.cs" t="Include" />
+            <e p="OnKeyPickup.cs" t="Include" />
+          </e>
+          <e p="Splash" t="Include">
+            <e p="SplashController.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="EscapeGame.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
