@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Utils : MonoBehaviour {
 	
-	private static Utils instance;
+	private static Utils _instance;
 	public static Utils Instance()
 	{
-		if (instance != null)
+		if (_instance != null)
 		{
-			return instance;
+			return _instance;
 		}
 		else
 		{

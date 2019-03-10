@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class GamePlayController : MonoBehaviour
 {
-    static GamePlayController instance;
+    static GamePlayController _instance;
     public GameObject LosePanel;
     public GameObject InfoPanel;
     public GameObject WinPanel;
@@ -18,11 +18,11 @@ public class GamePlayController : MonoBehaviour
     
     
     public GameObject Player;
-    private float Timeplay = 0.0f;
+    private float _timeplay = 0.0f;
 
     private void Start()
     { 
-        instance = this;
+        _instance = this;
         Time.timeScale = 1.0f;
         Globals.TotalKeyPickedUp = 0;
         WinPanel.SetActive(false);
@@ -33,7 +33,7 @@ public class GamePlayController : MonoBehaviour
 
     public static GamePlayController Instance()
     {
-        return instance;
+        return _instance;
     }
 
     public void OnDead()
@@ -45,7 +45,7 @@ public class GamePlayController : MonoBehaviour
 
     private void Update()
     {
-        Timeplay += Time.deltaTime;
+        _timeplay += Time.deltaTime;
     }
 
 
@@ -53,9 +53,9 @@ public class GamePlayController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
 
-        foreach (Transform Child in Player.transform)
+        foreach (Transform child in Player.transform)
         {
-            Destroy(Child.gameObject);
+            Destroy(child.gameObject);
             yield return new WaitForSeconds(0.2f);
         }
         Destroy(Player);
@@ -79,8 +79,8 @@ public class GamePlayController : MonoBehaviour
     public void OnWin()
     {
         WinPanel.SetActive(true);
-        PlayTime.text =((int) Timeplay).ToString();
-        Utils.Instance().UpdateBestTime(Timeplay);
+        PlayTime.text =((int) _timeplay).ToString();
+        Utils.Instance().UpdateBestTime(_timeplay);
         BestPlayTime.text = ((int) Utils.GetFloat(Constants.BestTime)).ToString();
 
     }
